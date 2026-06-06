@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: f9bc2967ed1bc7948be0ad3690466781
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 360542
+  packageName: "Stylized 3D Animated Chests \u2013 FREE Demo"
+  packageVersion: 1.0
+  assetPath: "Assets/Stylized 3D Animated Chests \u2013 FREE Demo/Resources/Demo/DemoManager.cs"
+  uploadId: 864666

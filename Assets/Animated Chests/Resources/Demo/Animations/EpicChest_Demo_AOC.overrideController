@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!221 &22100000
+AnimatorOverrideController:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: EpicChest_Demo_AOC
+  m_Controller: {fileID: 9100000, guid: 8987ca8b11cb96e42adc4c78873abb66, type: 2}
+  m_Clips:
+  - m_OriginalClip: {fileID: 7400000, guid: 69b75e0fb0463c647b05e950ea0a8a29, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 17dcc8ea59c85ad4f986e3c752da3fad, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: 0b467cd8eaad01a44bcb41ce2f915d0f, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: d4c26afae5783e1428fcb1fa0454e272, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: a607c1aa7f4c88d40890ed1e8538ff71, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 73faf8be7f95aea4caf68b0347644ce4, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: b61be18610a059143b19bb40d15eda88, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: fc02acbb75c47c54396ac6d05fc219b9, type: 2}
