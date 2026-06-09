@@ -457,7 +457,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!23 &1000000002
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -1184,20 +1184,30 @@ MonoBehaviour:
   m_GameObject: {fileID: 1000000071}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1b54eb2b6dd04046b2e82b98e7428331, type: 3}
+  m_Script: {fileID: 11500000, guid: d982375894b74464b98055d91373a552, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::ProceduralMazeGenerator
-  columns: 8
-  rows: 8
-  cellSize: 2
-  wallThickness: 0.5
-  wallHeight: 0.8
+  m_EditorClassIdentifier: Assembly-CSharp::MazeMapStreamer
+  mapWidth: 20
+  mapHeight: 30
+  worldSeed: 12345
+  fillPercent: 0.6
+  loadRadius: 1
+  mazeSettings:
+    columns: 8
+    rows: 8
+    cellSize: 2
+    minRooms: 6
+    maxRooms: 12
+    minRoomWidth: 2
+    maxRoomWidth: 4
+    minRoomHeight: 2
+    maxRoomHeight: 4
+    loopChance: 0.2
+    wallThickness: 0.5
+    wallHeight: 0.8
   wallMaterial: {fileID: 2100000, guid: 693774d058e941fc93b76eef99f5ff5c, type: 2}
-  useRandomSeed: 1
-  seed: 12345
-  lastGeneratedSeed: 0
-  floor: {fileID: 1000000005}
-  floorRenderer: {fileID: 1000000002}
+  floorMaterialSource: {fileID: 1000000002}
+  floorMaterial: {fileID: 0}
   player: {fileID: 1000000054}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
